@@ -1,1 +1,117 @@
-<p>edi</p>
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <title>skyskrapere</title>
+        <style>
+            body{
+                background-color: #404040;
+                border-radius: 1px;
+                margin: auto;
+                max-width: 500px;
+            }
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                color:white;
+                background-color: #3f5765;
+                margin-bottom: 5px;
+                padding:30px;
+            }
+            table.ramme{
+                border: 5px solid #404040;
+                gap:0;
+                margin:0;
+            }
+            table.ramme > tr > td {
+                border: 5px solid black;
+            }
+            table.tabell {
+                border: 8px solid #bdd4de;
+            }
+            table.tabell > thead {
+                background-color: #3f4259;
+                color:white;
+                padding: 10px;
+            }
+            table > tbody >tr:nth-child(even){
+                background-color: #bdd4de;
+                padding: 10px;
+            }
+            table > tbody >tr:nth-child(odd){
+                background-color: white;
+                padding: 10px;
+            }
+            section {
+                display: flex;
+                flex-flow: row;
+                background-color: #404040;
+            }
+            img {
+                display:flex;
+                object-fit: cover;
+                object-position: center;
+                margin-top: 5px;
+                height: 260px;
+                aspect-ratio: 2/3;
+                width: 165px;
+                border: 10px black;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="ramme">
+            <tr>
+                <td>
+                    <h2>verdens tre høyeste skysrapere</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="tabell">
+                        <thead>
+                            <tr>
+                                <th>Skyskraper</th>
+                                <th>Høyde</th>
+                                <th>By</th>
+                                <th>Land</th>
+                                <th>Byggeår</th> 
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Burj khalifa</td>
+                                <td>828 m</td>
+                                <td>dubai</td>
+                                <td>de forente arabiske emerater</td>
+                                <td>2009</td>
+                            </tr>
+                            <tr>
+                                <td>shanghai tower</td>
+                                <td>632 m</td>
+                                <td>shanghai</td>
+                                <td>kina</td>
+                                <td>2014</td> 
+                            </tr>
+                            <tr>
+                                <td>Makkah royal clock tower</td>
+                                <td>601 m</td>
+                                <td>Mekka</td>
+                                <td>Saudi Arabia</td>
+                                <td>2011</td> 
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <section>
+                        <a href="a"><img src="Shanghai_stor.jpg"></a>
+                        <a href="a"><img src="Makkah_stor.jpg"></a>
+                        <a href="a"><img src="burj_stor.jpg"></a>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
